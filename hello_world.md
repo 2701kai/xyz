@@ -1,6 +1,6 @@
 I strive to become a web developer.. 
 
-<!--
+
     Text verändern, wenn weißer Punkt oben: 
     noch nicht gespeichert.Speichern lokal: 
     STRG + s
@@ -10,4 +10,3 @@ I strive to become a web developer..
     git commit -m Update
     git push
 
->
