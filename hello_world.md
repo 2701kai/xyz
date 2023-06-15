@@ -1,0 +1,1 @@
+I strive to become a web developer.. 
