@@ -6,4 +6,8 @@ I strive to become a web developer..
     STRG + s
     Dann ins Terminal wechseln..
 
+    git add .
+    git commit -m Update
+    git push
+
 >
