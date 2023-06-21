@@ -8,15 +8,16 @@ html {
     *:after {
       box-sizing: border-box;
     } */
-}
+
 
   /* ----------------------------------------------------------------------
       GOOGLE FONTS
 ---------------------------------------------------------------------- */
 
-  /* ALTERNATIV: GFonts über CSS einbinden 
+  /* ALTERNATIV: GFonts über CSS einbinden
   @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Montserrat:wght@100;400;700&family=Poppins:wght@100;300;700&family=Roboto+Slab:wght@100;400;700&family=Roboto:wght@100;400;700&family=Source+Code+Pro:wght@200;400;700&display=swap"); */
-  font-family: "Bruno Ace SC", cursive;
+  font-family: "Bruno Ace SC",
+  cursive;
 
   .font--serif {
     font-family: "Roboto Slab", serif;
@@ -66,6 +67,18 @@ body {
   /* margin: 20px; */
   /* padding: 20px; */
 }
+
+/* neu  */
+a {
+    color: #0054ff;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #ff4a11;
+  }
+  
+  
 
 
 
