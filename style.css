@@ -1,0 +1,218 @@
+html {
+    scroll-behavior: smooth;
+    /* BOX SIZING: SIEHE https://css-tricks.com/box-sizing/ */
+    color-scheme: dark light;
+  
+    /* *,
+    *:before,
+    *:after {
+      box-sizing: border-box;
+    } */
+}
+
+  /* ----------------------------------------------------------------------
+      GOOGLE FONTS
+---------------------------------------------------------------------- */
+
+  /* ALTERNATIV: GFonts über CSS einbinden 
+  @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Montserrat:wght@100;400;700&family=Poppins:wght@100;300;700&family=Roboto+Slab:wght@100;400;700&family=Roboto:wght@100;400;700&family=Source+Code+Pro:wght@200;400;700&display=swap"); */
+  font-family: "Bruno Ace SC", cursive;
+
+  .font--serif {
+    font-family: "Roboto Slab", serif;
+  }
+
+  .font--sans-serif {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .font--monospace {
+    font-family: "Source Code Pro", monospace;
+  }
+
+  .font--roboto {
+    font-family: "Roboto", sans-serif;
+  }
+
+  .font--poppins {
+    font-family: "Poppins", sans-serif;
+  }
+
+}
+
+/* ----------------------------------------------------------------------
+     BODY
+---------------------------------------------------------------------- */
+body {
+  /* overflow: hidden; */
+  overflow: scroll;
+  /* z.B. PREFACE: Text sprengt flexbox nicht, einfach runterscrollen */
+
+  /* BOX SIZING: SIEHE https://css-tricks.com/box-sizing/ */
+  box-sizing: border-box;
+  /* *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  } */
+  /* background-color: rgba(123, 122, 122, 0.5); */
+  background-color: rgba(123, 122, 122, 0.8);
+  background-color: #262626;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5em;
+
+  /* font-family: "Poppins", sans-serif; */
+
+  /* margin: 20px; */
+  /* padding: 20px; */
+}
+
+
+
+/* -------------------- BORDER FÜR ALLE ---------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+header,
+section,
+div {
+  /* border: 2px solid #ff4a11; */
+  line-height: 1.5em;
+  text-align: center;
+}
+
+div,
+section {
+  /* border: 5px solid rgb(0, 255, 255); */
+  /* min-height: 100vh; */
+}
+
+.fullsize,
+.section-fullsize {
+  padding-top: 35px;
+  /* border: 6px solid yellow; */
+  min-height: 100vh;
+}
+
+/* section {
+      min-height: 100vh;
+  } */
+/* ----------------------------------------------------- */
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  letter-spacing: 0.18em;
+  text-shadow: 0em 0em 0.4em rgba(255, 255, 255, 0.6);
+}
+
+h1 {
+  font-size: 70px;
+  font-family: "Bruno Ace SC", cursive;
+}
+
+h2 {
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 40px;
+  /* font-weight: bold; */
+  /* letter-spacing: 0.18 em; */
+  /* line-height: 1.4em; */
+  /* text-shadow: 0em 0em 0.4em rgba(255, 255, 255, 0.6); */
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 10px;
+  margin: 35px;
+}
+
+p {
+  /* color: rgb(255, 255, 255, 0.8); */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+  padding: 10px;
+  margin: 35px;
+  color: #ffffff;
+}
+
+.p-white {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+  text-shadow: 0em 0em 0.2em rgba(255, 255, 255, 0.6);
+  color: rgb(255, 255, 255, 0.8);
+  padding: 10px;
+  margin: 35px;
+}
+
+/* ----------------------------------------------------------------------
+NAVIGATION MAIN
+---------------------------------------------------------------------- */
+
+.nav-main {
+    /* overflow: hidden; */
+    /* VERDAMMT; ENDLICH:*/
+    min-width: 100vw;
+    /* width: auto; */
+    background-color: #26262643;
+    /* background-color: transparent; */
+    /* margin: 10px; */
+    margin-top: -50px;
+    /* display: flex; */
+    justify-content: baseline;
+    /* margin-bottom: 100px; */
+    padding: 10px 35px;
+    position: fixed;
+    /* position: sticky; */
+    z-index: 100;
+  }
+  
+  /* .nav .acitve {
+    color: #262626;
+    background-color: #ffffff;
+  } */
+  
+  
+  
+  .nav-main img {
+    height: 20px;
+    margin: -5px;
+  }
+  
+  .nav-main i {
+    height: 25px;
+  }
+  
+  .nav-main a {
+    /* color: #2ea3f2; */
+    color: #222222;
+    /* color: #666666; */
+    color: rgb(255, 255, 255, 0.8);
+    color: #b2c9f8;
+    color: #447ff4;
+    text-decoration: none;
+    font-weight: bold;
+    /* CHEESES, STELL ICH MICH AN.. */
+    margin: 10px;
+    padding: 0 0 5px;
+  }
+  
+  .nav-main a:hover {
+    color: #ff4a11;
+  }
+  
+  
