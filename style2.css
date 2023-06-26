@@ -1,3 +1,17 @@
+html {
+  scroll-behavior: smooth;
+  /* BOX SIZING: SIEHE https://css-tricks.com/box-sizing/ */
+  color-scheme: dark light;
+
+  /* *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  } */
+
+
+
+
 /* ----------------------------------------------------------------------
      BODY
 ---------------------------------------------------------------------- */
